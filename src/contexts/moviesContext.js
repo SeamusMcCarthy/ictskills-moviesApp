@@ -23,6 +23,7 @@ const MoviesContextProvider = (props) => {
 
   const addToPlaylist = (movie) => {
     setPlaylist([...playlist,movie.id])
+    console.log(playlist);
   };
 
   return (
